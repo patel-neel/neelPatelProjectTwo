@@ -1,0 +1,52 @@
+.contactHeader{
+    background-image: url(../assets/contact-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contactHeader {
+    h1 {
+    font-size: 3.95rem;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin: 0;
+    padding: 10% 0 15% 0;
+    }
+}
+
+.contactSection {
+    background: $iceBlue;
+}
+
+.contactSection>div {
+    display: flex;
+    justify-content: space-between
+}
+
+.contactSection{
+    ul {
+        display: flex;
+        margin: 5% 0;
+        li{
+            margin: 0 10% 0 0;
+        }
+        a {
+            color: $twilightBlue;
+        }
+    }
+    p {
+        a {
+            color: black;
+            text-decoration: none;
+        }
+    }
+}
+
+form {
+    box-shadow: 20px 20px 0px 0px rgba(253,217,8,1);
+    background:$twilightBlue;
+    color: white;
+
+}
+

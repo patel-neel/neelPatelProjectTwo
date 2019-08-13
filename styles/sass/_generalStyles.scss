@@ -1,0 +1,56 @@
+$headingFont: 'IM Fell English', serif,;
+$textFont: 'Roboto', sans-serif;
+$iceBlue: #eafefc;
+$twilightBlue: #0d457f;
+$dandelion: #fdd908;
+
+
+html {
+    font-size: 125%;
+}
+
+p {
+    font-family: $textFont;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+h1, h2, h3, h4 {
+    font-family: $headingFont;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.moreButton {
+    text-decoration: none;
+    font-style: italic;
+    font-family: $headingFont;
+    text-transform: uppercase;
+    color: #0d457f;
+    background: #fdd908;
+    padding: 10px 10px;
+}
+
+footer {
+    background: $dandelion;
+}
+
+footer p {
+    color: $twilightBlue;
+    margin: 0;
+    text-align: center;
+}
+
+
+
+

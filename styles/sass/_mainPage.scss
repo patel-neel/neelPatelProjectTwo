@@ -1,0 +1,235 @@
+
+// NAV AND HEADER
+
+.indexHeader{
+    background-image: url(../assets/home-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding:40px 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+nav a {
+    font-family: $textFont;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border-bottom: $dandelion 3px solid;
+}
+
+.mainHeading h1 {
+    color: $dandelion;
+    font-size: 3.95rem;
+    margin-left: 10%;
+    position: relative;
+    top: 100px;
+}
+
+.mainHeading {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+.headerImage img {
+    width: 100%;
+}
+
+.headerImage {
+    display: block;
+    max-width: 800px;
+    position: relative;
+    top: 100px;
+}
+
+// SITE INFO (PART WITH NEW DESTINATION/COMMUNITY/BLOG/GET IN TOUCH
+.siteInfo {
+    background: $iceBlue;
+}
+
+.siteInfo h2 {
+    margin: 0;
+    color: $twilightBlue;
+}
+
+.siteInfo i {
+    font-size: 1.5rem;
+    background: #fdd908;
+    border: 1px solid #fdd908;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.infoBoxes {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 0;
+}
+.infoBoxes>div {
+    display: flex;
+    width: 50%;
+    margin: 20px 0;
+}
+
+.infoIcon {
+    margin: 0 20px;
+}
+
+
+
+// PROGRAMS AND LOCATIONS SECTION
+
+.programsLocations {
+    background: #0d457f;
+    color: white;
+}
+
+
+.programsInfo,
+.locationsInfo {
+    width: 45%;
+}
+.programsInfo {
+    padding-right: 10%;
+}
+.locationsInfo {
+    padding-left: 10%;
+    text-align: right;
+}
+
+.programsLocations img {
+    width: 100%;
+    display: block;
+}
+
+.programsImage,
+.locationsImage {
+    width: 45%;
+}
+
+.programsImage {
+    box-shadow: 40px 40px 0px -14px rgba(253,217,8,1);
+    position: relative;
+    bottom: 65px;
+
+}
+
+.locationsImage {
+    box-shadow: -40px -40px 0px -14px rgba(253,217,8,1);
+    position: relative;
+    top: 65px;
+}
+
+.programs,
+.locations {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// EXTRA VACATION DAYS
+
+.vacation {
+    background:$iceBlue;
+}
+
+.vacation>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.vacation h2 {
+    color: $twilightBlue;
+}
+
+.vacation p{
+    color: grey;
+}
+
+.vacationImage img {
+    width: 100%;
+    display: block;
+}
+
+.vacationImage {
+    display: block;
+}
+
+div.vacationImage {
+    padding: 0;
+}
+
+// CONTEST SECTION
+
+.contest {
+    background: #eafefc;
+}
+
+.contest>div {
+    display: flex;
+    padding: 100px 0;
+}
+
+.contestImage img {
+    display: block;
+    box-shadow: -25px 25px 0px 0px rgba(253,217,8,1);
+}
+
+.contestInfo {
+    margin-left: 100px;
+}
+
+.contestInfo h2 {
+    color:$twilightBlue;
+}
+
+.contestInfo p {
+    color: grey;
+    padding-bottom: 5%;
+}
+
+
+// MAIN GALLERY SECTION
+
+.gallery {
+    background: #0d457f;
+}
+
+.gallery img {
+    display: block;
+    width: 100%;
+}
+
+
+.galleryBoxes {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.galleryImage2 {
+    padding: 0 40px;
+}
+
+
+
+
+
+
