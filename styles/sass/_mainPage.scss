@@ -7,11 +7,6 @@
     background-size: cover;
 }
 
-.wrapper {
-    width: 80%;
-    margin: 0 auto;
-}
-
 nav ul {
     list-style-type: none;
     padding:40px 0;
@@ -34,7 +29,7 @@ nav a:hover {
 .mainHeading h1 {
     color: $dandelion;
     font-size: 3.95rem;
-    margin-left: 10%;
+    margin-left: 7.5%;
     position: relative;
     top: 100px;
 }
@@ -97,8 +92,10 @@ nav a:hover {
 .programsLocations {
     background: #0d457f;
     color: white;
+    p {
+        padding-bottom: 5%;
+    }
 }
-
 
 .programsInfo,
 .locationsInfo {
@@ -126,7 +123,6 @@ nav a:hover {
     box-shadow: 40px 40px 0px -14px rgba(253,217,8,1);
     position: relative;
     bottom: 65px;
-
 }
 
 .locationsImage {
