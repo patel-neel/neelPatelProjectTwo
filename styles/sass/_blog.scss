@@ -1,3 +1,7 @@
+body {
+    background: $iceBlue;
+}
+
 .blogHeader {
     background-image: url(../assets/blog-header.jpg);
     background-repeat: no-repeat;
@@ -12,6 +16,8 @@
     }
 }
 
+// BLOG SECTION
+
 .blogSection {
     background: $iceBlue;
     display: flex;
@@ -23,7 +29,7 @@
 }
 
 
-aside {
+.blogAside {
     background: $twilightBlue;
     width: 30%;
     margin: 5% 7.5%;
@@ -84,17 +90,36 @@ article {
 // COMMENTS SECTION
 
 .commentSection {
-    background: $iceBlue;
-    h3 {
-        color: $twilightBlue;
-        font-size: 2rem;
-        margin: 2% 0;
-    }
+    width: 60%;
+    float: right;
 }
 
-.userComment {
+.commentSection h3 {
+    color: $twilightBlue;
+    font-size: 2rem;
+    margin: 2% 0;
+}
+
+.userComments {
     display: flex;
 }
+
+.comment p {
+    margin: 0 0 0 2%;;
+}
+
+p.commentDate {
+    color: $twilightBlue;
+    font-weight: bold;
+    margin-bottom: .5%;
+}
+
+
+
+
+
+
+
 
 
 

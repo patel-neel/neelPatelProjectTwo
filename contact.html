@@ -31,7 +31,7 @@
 
     <section class="contactSection">
         <div class="wrapper">
-            <aside>
+            <aside class="contactAside">
                 <ul>
                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                     <li><a href="#"><i class="fab fa-instagram"></i></a></li>
@@ -41,11 +41,32 @@
                 <p><a href="#">info@email.com</a></p>
                 <p>123 - 456 - 7890<br>123 Queen Street West, Unit 10<br>Toronto, Ontario<br>M5V 2D5</p>
             </aside>
-            <form action="">
-                <div class="inputFields">
-                    <input type="text">
-                </div>
-            </form>
+            
+            <div class="contactForm">
+                <form action="">
+                    <div class="wrapper">
+                        <div class="container">
+                            <div class="contactName">
+                                <label class="visuallyhidden" for="name">name</label>
+                                <input type="text" placeholder="Name">
+                            </div>
+                
+                            <div class="contactEmail">
+                                <label class="visuallyhidden" for="email">email address</label>
+                                <input type="email" placeholder="Email Address">
+                            </div>
+                        </div>
+                
+                        <div>
+                            <label class="visuallyhidden" for="message">message</label>
+                            <textarea name="bio" id="bio" cols="80" rows="5" placeholder="Message"></textarea>
+                        </div>
+                        
+                        <input type="submit" value="Submit">
+
+                    </div>
+                </form>
+            </div>
         </div>
 
     </section>

@@ -241,7 +241,35 @@ html {
 
 .wrapper {
   width: 85%;
+  max-width: 1440px;
   margin: 0 auto;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 40px 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 35%;
+}
+
+nav a {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  border-bottom: #fdd908 3px solid;
+}
+
+img {
+  width: 100%;
 }
 
 p {
@@ -290,29 +318,6 @@ footer p {
   background-image: url(../assets/home-header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-nav ul {
-  list-style-type: none;
-  padding: 40px 0;
-  margin: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 35%;
-}
-
-nav a {
-  font-family: "Roboto", sans-serif;
-  color: white;
-  text-decoration: none;
-}
-
-nav a:hover {
-  border-bottom: #fdd908 3px solid;
 }
 
 .mainHeading h1 {
@@ -554,10 +559,6 @@ div.vacationImage {
   padding: 10% 0 15% 0;
 }
 
-.contactSection {
-  background: #eafefc;
-}
-
 .contactSection > div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -587,11 +588,87 @@ div.vacationImage {
   text-decoration: none;
 }
 
-form {
+.contactAside {
+  margin-top: 5%;
+}
+
+.contactForm {
+  background: #0d457f;
+  padding: 3% 0;
   -webkit-box-shadow: 20px 20px 0px 0px #fdd908;
           box-shadow: 20px 20px 0px 0px #fdd908;
+  position: relative;
+  bottom: 100px;
+}
+
+input, textarea, label {
+  width: 100%;
+  display: block;
   background: #0d457f;
   color: white;
+  margin: 5% 0;
+  padding: 20px;
+  border: none;
+}
+
+input, label {
+  border-bottom: 2px #fdd908 solid;
+}
+
+input:hover, textarea:hover {
+  background: #0b396b;
+  border-radius: 5px;
+}
+
+input:focus, textarea:focus {
+  background: #0b396b;
+  border-radius: 5px;
+}
+
+textarea {
+  border: 2px #fdd908 solid;
+}
+
+input[type="submit"] {
+  text-decoration: none;
+  font-style: italic;
+  font-family: "IM Fell English", serif;
+  text-transform: uppercase;
+  color: #0d457f;
+  background: #fdd908;
+  margin: 0;
+  padding: 10px;
+}
+
+input[type="submit"]:hover {
+  background: #e0c214;
+}
+
+input[type="submit"]:focus {
+  background: #e0c214;
+}
+
+.contactName {
+  width: 50%;
+  margin-right: 2%;
+}
+
+.contactEmail {
+  width: 50%;
+  margin-left: 2%;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body {
+  background: #eafefc;
 }
 
 .blogHeader {
@@ -624,7 +701,7 @@ form {
   display: block;
 }
 
-aside {
+.blogAside {
   background: #0d457f;
   width: 30%;
   margin: 5% 7.5%;
@@ -684,7 +761,8 @@ article {
 }
 
 .commentSection {
-  background: #eafefc;
+  width: 60%;
+  float: right;
 }
 
 .commentSection h3 {
@@ -693,8 +771,18 @@ article {
   margin: 2% 0;
 }
 
-.userComment {
+.userComments {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.comment p {
+  margin: 0 0 0 2%;
+}
+
+p.commentDate {
+  color: #0d457f;
+  font-weight: bold;
+  margin-bottom: .5%;
 }

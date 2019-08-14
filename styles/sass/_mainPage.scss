@@ -7,24 +7,7 @@
     background-size: cover;
 }
 
-nav ul {
-    list-style-type: none;
-    padding:40px 0;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    width: 35%;
-}
 
-nav a {
-    font-family: $textFont;
-    color: white;
-    text-decoration: none;
-}
-
-nav a:hover {
-    border-bottom: $dandelion 3px solid;
-}
 
 .mainHeading h1 {
     color: $dandelion;
