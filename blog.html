@@ -20,10 +20,10 @@
             <div class="wrapper">
                 <nav>
                     <ul>
-                        <li><a href="#">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="#">About</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
                 <h1>Blog</h1>
@@ -85,8 +85,8 @@
 
     </section>
 
-    <section class="commentSection clearfix">
-        <div class="wrapper clearfix">
+    <section class="commentSection">
+        <div class="wrapper">
             <h3>
                 comments:
             </h3>
@@ -113,8 +113,36 @@
                 </div>
             </div>
         </div>
+        <div class="commentForm">
+            <form action="">
+                <div class="wrapper">
+                    <div class="container">
+                        <div class="commentName">
+                            <label class="visuallyhidden" for="name">name</label>
+                            <input type="text" placeholder="Name">
+                        </div>
+        
+                        <div class="commentEmail">
+                            <label class="visuallyhidden" for="email">email address</label>
+                            <input type="email" placeholder="Email Address">
+                        </div>
+                    </div>
+        
+                    <div>
+                        <label class="visuallyhidden" for="comment">comment</label>
+                        <textarea name="bio" id="bio" cols="80" rows="5" placeholder="Comment"></textarea>
+                    </div>
+        
+                    <input type="submit" value="post comment">
+        
+                </div>
+            </form>
+        </div>
     </section>
 
+    <footer>
+        <p>Copyright © 2019 HackerYou</p>
+    </footer>
 
 
 </body>

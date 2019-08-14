@@ -36,7 +36,10 @@ body {
     height: 100%;
 }
 .asideImage {
+    width: 120%;
     position: relative;
+    right: 30%;
+    bottom: 20px;
 }
 
 
@@ -45,7 +48,7 @@ body {
     h4 {
         color: $dandelion;
         font-size: 1.5rem;
-        margin: 15% 0 5% 0;
+        margin: 10% 0 5% 0;
     }
     p{
         color: white;
@@ -74,6 +77,7 @@ article {
     border-left: $dandelion 5px solid;
     border-bottom: $dandelion 5px solid;
     width: 70%;
+    padding-bottom: 5%;
 }
 
 .nextDestinationPost {
@@ -90,8 +94,8 @@ article {
 // COMMENTS SECTION
 
 .commentSection {
-    width: 60%;
-    float: right;
+    margin-left: 40%;
+    margin-top: 5%;
 }
 
 .commentSection h3 {
@@ -102,10 +106,11 @@ article {
 
 .userComments {
     display: flex;
+    margin-top: 5%;
 }
 
 .comment p {
-    margin: 0 0 0 2%;;
+    margin: 0 0 0 5%;;
 }
 
 p.commentDate {
@@ -114,6 +119,74 @@ p.commentDate {
     margin-bottom: .5%;
 }
 
+.profilePic {
+    width: 25%;
+    max-width: 85px;
+}
+
+.commentForm {
+    padding: 3% 0;
+
+    input, textarea, label {
+        width: 100%;
+        display: block;
+        background: $iceBlue;
+        color: black;
+        margin: 5% 0;
+        padding: 20px;
+        border: none;
+    }
+
+    input, label {
+        border-bottom: 2px $dandelion solid;
+    }
+    input:hover, textarea:hover{
+        background: rgb(213, 231, 230);
+        border-radius: 3px;
+    }
+    input:focus, textarea:focus{
+        background: rgb(213, 231, 230);
+        border-radius: 3px;
+    }
+
+    textarea {
+        border: 2px $dandelion solid;
+    }
+
+    input[type="submit"] {
+        text-decoration: none;
+        font-style: italic;
+        font-family: $headingFont;
+        text-transform: uppercase;
+        color: $dandelion;
+        background: $twilightBlue;
+        border: none;
+        margin: 0;
+        padding: 10px;
+    }
+
+    input[type="submit"]:hover {
+        background: rgb(18, 89, 165);
+    }
+    input[type="submit"]:focus {
+        background: rgb(18, 89, 165);
+    }
+
+    .commentName {
+        width: 50%;
+        margin-right: 2%;
+        
+    }
+    .commentEmail {
+        width: 50%;
+        margin-left: 2%;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between
+    }
+}
 
 
 

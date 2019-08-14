@@ -601,7 +601,7 @@ div.vacationImage {
   bottom: 100px;
 }
 
-input, textarea, label {
+.contactForm input, .contactForm textarea, .contactForm label {
   width: 100%;
   display: block;
   background: #0d457f;
@@ -611,25 +611,25 @@ input, textarea, label {
   border: none;
 }
 
-input, label {
+.contactForm input, .contactForm label {
   border-bottom: 2px #fdd908 solid;
 }
 
-input:hover, textarea:hover {
+.contactForm input:hover, .contactForm textarea:hover {
   background: #0b396b;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
-input:focus, textarea:focus {
+.contactForm input:focus, .contactForm textarea:focus {
   background: #0b396b;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
-textarea {
+.contactForm textarea {
   border: 2px #fdd908 solid;
 }
 
-input[type="submit"] {
+.contactForm input[type="submit"] {
   text-decoration: none;
   font-style: italic;
   font-family: "IM Fell English", serif;
@@ -640,25 +640,25 @@ input[type="submit"] {
   padding: 10px;
 }
 
-input[type="submit"]:hover {
+.contactForm input[type="submit"]:hover {
   background: #e0c214;
 }
 
-input[type="submit"]:focus {
+.contactForm input[type="submit"]:focus {
   background: #e0c214;
 }
 
-.contactName {
+.contactForm .contactName {
   width: 50%;
   margin-right: 2%;
 }
 
-.contactEmail {
+.contactForm .contactEmail {
   width: 50%;
   margin-left: 2%;
 }
 
-.container {
+.contactForm .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -709,7 +709,10 @@ body {
 }
 
 .asideImage {
+  width: 120%;
   position: relative;
+  right: 30%;
+  bottom: 20px;
 }
 
 .asideInfo {
@@ -719,7 +722,7 @@ body {
 .asideInfo h4 {
   color: #fdd908;
   font-size: 1.5rem;
-  margin: 15% 0 5% 0;
+  margin: 10% 0 5% 0;
 }
 
 .asideInfo p {
@@ -748,6 +751,7 @@ article {
   border-left: #fdd908 5px solid;
   border-bottom: #fdd908 5px solid;
   width: 70%;
+  padding-bottom: 5%;
 }
 
 .nextDestinationPost h3 {
@@ -761,8 +765,8 @@ article {
 }
 
 .commentSection {
-  width: 60%;
-  float: right;
+  margin-left: 40%;
+  margin-top: 5%;
 }
 
 .commentSection h3 {
@@ -775,14 +779,91 @@ article {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 5%;
 }
 
 .comment p {
-  margin: 0 0 0 2%;
+  margin: 0 0 0 5%;
 }
 
 p.commentDate {
   color: #0d457f;
   font-weight: bold;
   margin-bottom: .5%;
+}
+
+.profilePic {
+  width: 25%;
+  max-width: 85px;
+}
+
+.commentForm {
+  padding: 3% 0;
+}
+
+.commentForm input, .commentForm textarea, .commentForm label {
+  width: 100%;
+  display: block;
+  background: #eafefc;
+  color: black;
+  margin: 5% 0;
+  padding: 20px;
+  border: none;
+}
+
+.commentForm input, .commentForm label {
+  border-bottom: 2px #fdd908 solid;
+}
+
+.commentForm input:hover, .commentForm textarea:hover {
+  background: #d5e7e6;
+  border-radius: 3px;
+}
+
+.commentForm input:focus, .commentForm textarea:focus {
+  background: #d5e7e6;
+  border-radius: 3px;
+}
+
+.commentForm textarea {
+  border: 2px #fdd908 solid;
+}
+
+.commentForm input[type="submit"] {
+  text-decoration: none;
+  font-style: italic;
+  font-family: "IM Fell English", serif;
+  text-transform: uppercase;
+  color: #fdd908;
+  background: #0d457f;
+  border: none;
+  margin: 0;
+  padding: 10px;
+}
+
+.commentForm input[type="submit"]:hover {
+  background: #1259a5;
+}
+
+.commentForm input[type="submit"]:focus {
+  background: #1259a5;
+}
+
+.commentForm .commentName {
+  width: 50%;
+  margin-right: 2%;
+}
+
+.commentForm .commentEmail {
+  width: 50%;
+  margin-left: 2%;
+}
+
+.commentForm .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
