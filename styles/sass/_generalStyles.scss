@@ -29,15 +29,13 @@ nav a {
     font-family: $textFont;
     color: white;
     text-decoration: none;
+    padding-bottom: 10%;
 }
 
 nav a:hover {
     border-bottom: $dandelion 3px solid;
 }
 
-img {
-    width: 100%;
-}
 
 p {
     font-family: $textFont;
@@ -81,6 +79,19 @@ footer p {
     text-align: center;
 }
 
+
+@media (max-width: 950px) {
+    nav ul {
+        width: 100%;
+        justify-content: space-around
+    }
+}
+
+@media (max-width: 450px) {
+    h2, h3 {
+        font-size: 1.5rem;
+    }
+}
 
 
 

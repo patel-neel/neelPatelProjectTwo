@@ -60,7 +60,7 @@
 }
 .infoBoxes>div {
     display: flex;
-    width: 50%;
+    width: 100%;
     margin: 20px 0;
 }
 
@@ -83,6 +83,7 @@
 .programsInfo,
 .locationsInfo {
     width: 45%;
+    margin-bottom: 5%;
 }
 .programsInfo {
     padding-right: 10%;
@@ -207,6 +208,92 @@ div.vacationImage {
     padding: 0 40px;
 }
 
+
+
+@media (max-width: 1180px) {
+    .mainHeading h1 {
+        position: unset;
+    }
+
+    .headerImage {
+        display: block;
+        max-width: 800px;
+        position: unset;
+    }
+}
+
+@media (max-width: 940px) {
+    .headerImage {
+        display: none;
+    }
+
+    .mainHeading {
+        justify-content: center;
+    }
+
+    .infoBoxes {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        padding: 100px 0;
+    }
+    .programs,
+    .locations {
+        display: flex;
+        flex-direction: column;
+    }
+    .programsInfo {
+        padding-right: 0%;
+    }
+    .locationsInfo {
+        padding-left: 0%;
+        text-align: left;
+    }
+    .locationsInfo,
+    .programsInfo {
+        width: 85%;
+    }
+
+    .contest>div {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 0;
+    }
+
+    .contestInfo {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .contestImage {
+        align-self: center;
+    }
+}
+
+@media (max-width: 680px) {
+    .wrapper {
+        width: 90%;
+    }
+    .mainHeading h1 {
+        margin-left: 10%;
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .infoIcon {
+        display: none;
+    }
+
+    .mainHeading h1 {
+        font-size: 2rem;
+        margin-left: 5%;
+    }
+}
 
 
 

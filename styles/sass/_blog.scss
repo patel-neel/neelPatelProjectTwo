@@ -190,7 +190,44 @@ p.commentDate {
 
 
 
+@media (max-width: 750px) {
+    .blogAside {
+        display: none;
+    }
+    article {
+        justify-content: center;
+        border: 5px solid $dandelion;
+        width: 90%;
+    }
 
+    .blogSection {
+        justify-content: center;
+    }
+
+    .commentSection {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .nextDestinationImage {
+        position: initial;
+        box-shadow: none;
+        margin-left: 0;
+    }
+
+    
+}
+
+@media (max-width: 450px) {
+    .nextDestinationPost>h3 {
+        font-size: 1.5rem;
+    }
+    .profilePic {
+        display: none;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+}
 
 
 
