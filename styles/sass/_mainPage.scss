@@ -1,301 +1,282 @@
-
 // NAV AND HEADER
 
-.indexHeader{
-    background-image: url(../assets/home-header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+.indexHeader {
+  background-image: url(../Assets/home-header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
-
 .mainHeading h1 {
-    color: $dandelion;
-    font-size: 3.95rem;
-    margin-left: 7.5%;
-    position: relative;
-    top: 100px;
+  color: $dandelion;
+  font-size: 3.95rem;
+  margin-left: 7.5%;
+  position: relative;
+  top: 100px;
 }
 
 .mainHeading {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  justify-content: space-between;
 }
 
 .headerImage img {
-    width: 100%;
+  width: 100%;
 }
 
 .headerImage {
-    display: block;
-    max-width: 800px;
-    position: relative;
-    top: 100px;
+  display: block;
+  max-width: 800px;
+  position: relative;
+  top: 100px;
 }
 
 // SITE INFO (PART WITH NEW DESTINATION/COMMUNITY/BLOG/GET IN TOUCH
 .siteInfo {
-    background: $iceBlue;
+  background: $iceBlue;
 }
 
 .siteInfo h2 {
-    margin: 0;
-    color: $twilightBlue;
+  margin: 0;
+  color: $twilightBlue;
 }
 
 .siteInfo i {
-    font-size: 1.5rem;
-    background: #fdd908;
-    border: 1px solid #fdd908;
-    border-radius: 50%;
-    padding: 10px;
+  font-size: 1.5rem;
+  background: #fdd908;
+  border: 1px solid #fdd908;
+  border-radius: 50%;
+  padding: 10px;
 }
 
 .infoBoxes {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  // flex-wrap: wrap;
+  padding: 100px 0;
 }
-.infoBoxes>div {
-    display: flex;
-    width: 100%;
-    margin: 20px 0;
+.infoBoxes > div {
+  display: flex;
+  width: 100%;
+  margin: 20px 0;
 }
 
 .infoIcon {
-    margin: 0 20px;
+  margin: 0 20px;
 }
-
-
 
 // PROGRAMS AND LOCATIONS SECTION
 
 .programsLocations {
-    background: #0d457f;
-    color: white;
-    p {
-        padding-bottom: 5%;
-    }
+  background: #0d457f;
+  color: white;
+  p {
+    padding-bottom: 5%;
+  }
 }
 
 .programsInfo,
 .locationsInfo {
-    width: 45%;
-    margin-bottom: 5%;
+  width: 45%;
+  margin-bottom: 5%;
 }
 .programsInfo {
-    padding-right: 10%;
+  padding-right: 10%;
 }
 .locationsInfo {
-    padding-left: 10%;
-    text-align: right;
+  padding-left: 10%;
+  text-align: right;
 }
 
 .programsLocations img {
-    width: 100%;
-    display: block;
+  width: 100%;
+  display: block;
 }
 
 .programsImage,
 .locationsImage {
-    width: 45%;
+  width: 45%;
 }
 
 .programsImage {
-    box-shadow: 40px 40px 0px -14px rgba(253,217,8,1);
-    position: relative;
-    bottom: 65px;
+  box-shadow: 40px 40px 0px -14px rgba(253, 217, 8, 1);
+  position: relative;
+  bottom: 65px;
 }
 
 .locationsImage {
-    box-shadow: -40px -40px 0px -14px rgba(253,217,8,1);
-    position: relative;
-    top: 65px;
+  box-shadow: -40px -40px 0px -14px rgba(253, 217, 8, 1);
+  position: relative;
+  top: 65px;
 }
 
 .programs,
 .locations {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 // EXTRA VACATION DAYS
 
 .vacation {
-    background:$iceBlue;
+  background: $iceBlue;
 }
 
-.vacation>div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 100px 0;
+.vacation > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
 }
 
 .vacation h2 {
-    color: $twilightBlue;
+  color: $twilightBlue;
 }
 
-.vacation p{
-    color: grey;
+.vacation p {
+  color: grey;
 }
 
 .vacationImage img {
-    width: 100%;
-    display: block;
+  width: 100%;
+  display: block;
 }
 
 .vacationImage {
-    display: block;
+  display: block;
 }
 
 div.vacationImage {
-    padding: 0;
+  padding: 0;
 }
 
 // CONTEST SECTION
 
 .contest {
-    background: #eafefc;
+  background: #eafefc;
 }
 
-.contest>div {
-    display: flex;
-    padding: 100px 0;
+.contest > div {
+  display: flex;
+  padding: 100px 0;
 }
 
 .contestImage img {
-    display: block;
-    box-shadow: -25px 25px 0px 0px rgba(253,217,8,1);
+  display: block;
+  box-shadow: -25px 25px 0px 0px rgba(253, 217, 8, 1);
 }
 
 .contestInfo {
-    margin-left: 100px;
+  margin-left: 100px;
 }
 
 .contestInfo h2 {
-    color:$twilightBlue;
+  color: $twilightBlue;
 }
 
 .contestInfo p {
-    color: grey;
-    padding-bottom: 5%;
+  color: grey;
+  padding-bottom: 5%;
 }
-
 
 // MAIN GALLERY SECTION
 
 .gallery {
-    background: #0d457f;
+  background: #0d457f;
 }
 
 .gallery img {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
-
 .galleryBoxes {
-    display: flex;
-    justify-content: space-between;
-    padding: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0;
 }
 
 .galleryImage2 {
-    padding: 0 40px;
+  padding: 0 40px;
 }
-
-
 
 @media (max-width: 1180px) {
-    .mainHeading h1 {
-        position: unset;
-    }
+  .mainHeading h1 {
+    position: unset;
+  }
 
-    .headerImage {
-        display: block;
-        max-width: 800px;
-        position: unset;
-    }
+  .headerImage {
+    display: block;
+    max-width: 800px;
+    position: unset;
+  }
 }
 
-@media (max-width: 940px) {
-    .headerImage {
-        display: none;
-    }
+@media (max-width: 840px) {
+  .headerImage {
+    display: none;
+  }
 
-    .mainHeading {
-        justify-content: center;
-    }
+  .mainHeading {
+    justify-content: center;
+  }
 
-    .infoBoxes {
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        padding: 100px 0;
-    }
-    .programs,
-    .locations {
-        display: flex;
-        flex-direction: column;
-    }
-    .programsInfo {
-        padding-right: 0%;
-    }
-    .locationsInfo {
-        padding-left: 0%;
-        text-align: left;
-    }
-    .locationsInfo,
-    .programsInfo {
-        width: 85%;
-    }
+  .programs,
+  .locations {
+    display: flex;
+    flex-direction: column;
+  }
+  .programsInfo {
+    padding-right: 0%;
+  }
+  .locationsInfo {
+    padding-left: 0%;
+    text-align: left;
+  }
+  .locationsInfo,
+  .programsInfo {
+    width: 85%;
+  }
 
-    .contest>div {
-        display: flex;
-        flex-direction: column;
-        padding: 50px 0;
-    }
+  .contest > div {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+  }
 
-    .contestInfo {
-        margin-left: 0;
-        margin-top: 30px;
-    }
+  .contestInfo {
+    margin-left: 0;
+    margin-top: 30px;
+  }
 
-    .contestImage {
-        align-self: center;
-    }
+  .contestImage {
+    align-self: center;
+  }
 }
 
 @media (max-width: 680px) {
-    .wrapper {
-        width: 90%;
-    }
-    .mainHeading h1 {
-        margin-left: 10%;
-        font-size: 2.5rem;
-    }
+  .wrapper {
+    width: 90%;
+  }
+  .mainHeading h1 {
+    margin-left: 10%;
+    font-size: 2.5rem;
+  }
 }
 
 @media (max-width: 450px) {
-    .wrapper {
-        width: 90%;
-    }
+  .wrapper {
+    width: 90%;
+  }
 
-    .infoIcon {
-        display: none;
-    }
+  .infoIcon {
+    display: none;
+  }
 
-    .mainHeading h1 {
-        font-size: 2rem;
-        margin-left: 5%;
-    }
+  .mainHeading h1 {
+    font-size: 2rem;
+    margin-left: 5%;
+  }
 }
-
-
-
-
-
